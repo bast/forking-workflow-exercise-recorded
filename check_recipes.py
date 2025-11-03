@@ -2,6 +2,7 @@ from pathlib import Path
 import re
 import sys
 
+
 ingredients_re = re.compile("^#+ +ingredients", re.IGNORECASE | re.MULTILINE)
 instructions_re = re.compile("^#+ +instructions", re.IGNORECASE | re.MULTILINE)
 
